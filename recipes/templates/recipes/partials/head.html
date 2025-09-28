@@ -79,6 +79,7 @@
             font-size: 1.6rem;
             font-family: var(--font-primary);
             background: var(--color-gray-2);
+            color: var(--color-dark-text);
         }
 
         h1,
@@ -188,6 +189,20 @@
 
         .recipe-list-item:hover {
             transform: scale(1.02);
+            box-shadow: -8px 8px 18px rgba(0, 0, 0, .25)
+        }
+
+        .recipe-title-container {
+            padding: var(--spacing-gutter-medium);
+            padding-bottom: calc(var(--spacing-gutter-medium) / 2);
+        }
+
+        .recipe-author-item {
+            padding: 10px;
+        }
+
+        .recipe-content {
+            padding: var(--spacing-gutter-medium);
         }
     </style>
 </head>
